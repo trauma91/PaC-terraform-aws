@@ -22,4 +22,4 @@ sudo docker tag $ecr_repository:latest $ecr_repository:latest
 sudo docker push $ecr_repository:latest
 
 # Update service definition forcing a new deployment
-aws ecs update-service --cluster $cluster_name --service $service_name
+aws ecs update-service --cluster $cluster_name --service $service_name --region $aws_region

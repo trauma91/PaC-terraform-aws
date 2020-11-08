@@ -64,8 +64,8 @@ The docker image is built on your machine and then pushed to the ECR registry us
 
 - AWS CLI (configured with the AWS IAM user used by Terraform)
 - Docker
-- Angular cli (v9.x.x recommended)
-- Node (v12.x.x recommended)
+- Angular cli (v9.x.x recommended or higher)
+- Node (v12.x.x recommended or higher)
 
 #### Execute ####
 
